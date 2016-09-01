@@ -116,6 +116,10 @@
     cell.imageProgress.hidden=NO;
     
     NSString *urlString=dataModel.provider_logo;
+    
+    
+   // http://cdn-goeuro.com/static_content/web/logos/{size}/air_berlin.png
+  urlString=  [urlString stringByReplacingOccurrencesOfString:@"{size}" withString:@"63"];
     urlString = [urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     NSURL *url=[NSURL URLWithString:urlString];
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url cachePolicy:NSURLRequestReturnCacheDataElseLoad
