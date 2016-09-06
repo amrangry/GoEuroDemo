@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C5258D661D61236C000AACED /* AirplainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5258D651D61236C000AACED /* AirplainViewController.m */; };
 		C5258D691D612382000AACED /* TrainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5258D681D612382000AACED /* TrainViewController.m */; };
+		C532271B1D7884E800DDCE76 /* OfferDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C532271A1D7884E800DDCE76 /* OfferDetailsVC.swift */; };
 		C5905AC81D57A0A300DE66F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5905AC71D57A0A300DE66F7 /* main.m */; };
 		C5905ACB1D57A0A300DE66F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5905ACA1D57A0A300DE66F7 /* AppDelegate.m */; };
 		C5905AD41D57A0A300DE66F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5905AD21D57A0A300DE66F7 /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 		C5258D651D61236C000AACED /* AirplainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirplainViewController.m; sourceTree = "<group>"; };
 		C5258D671D612382000AACED /* TrainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainViewController.h; sourceTree = "<group>"; };
 		C5258D681D612382000AACED /* TrainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainViewController.m; sourceTree = "<group>"; };
+		C532271A1D7884E800DDCE76 /* OfferDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OfferDetailsVC.swift; path = OfferDetailsViewController/OfferDetailsVC.swift; sourceTree = "<group>"; };
 		C5905AC31D57A0A200DE66F7 /* TransportationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransportationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5905AC71D57A0A300DE66F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5905AC91D57A0A300DE66F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,6 +93,14 @@
 				C5258D681D612382000AACED /* TrainViewController.m */,
 			);
 			path = TrainViewController;
+			sourceTree = "<group>";
+		};
+		C532271C1D7884F100DDCE76 /* OfferDetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C532271A1D7884E800DDCE76 /* OfferDetailsVC.swift */,
+			);
+			name = OfferDetailsViewController;
 			sourceTree = "<group>";
 		};
 		C5905ABA1D57A0A200DE66F7 = {
@@ -194,6 +204,7 @@
 		C5905AF21D587BAC00DE66F7 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				C532271C1D7884F100DDCE76 /* OfferDetailsViewController */,
 				C5258D631D612343000AACED /* TrainViewController */,
 				C5258D621D612321000AACED /* AirplainViewController */,
 				C5905AE41D57A4C900DE66F7 /* BaseViewController */,
@@ -345,6 +356,7 @@
 				C5258D691D612382000AACED /* TrainViewController.m in Sources */,
 				C5E99D091D5BBDAD0090F1E3 /* TimeComponets.m in Sources */,
 				C5905AC81D57A0A300DE66F7 /* main.m in Sources */,
+				C532271B1D7884E800DDCE76 /* OfferDetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

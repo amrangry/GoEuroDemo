@@ -7,7 +7,8 @@
 //
 
 #import "BaseViewController.h"
-
+#import "TransportationData.h"
+#import "TransportationDemo-Swift.h"
 @interface BaseViewController ()
 
 @end
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+      self.navigationController.navigationBarHidden=YES;
     _arrayOfResults=[NSMutableArray new];
 }
 
@@ -74,21 +76,6 @@
 
 
 
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-   /* shouldNavigateToRoot=NO;
-    Fatwa  *fatwa=[archivedFatwaArrayResults objectAtIndex:indexPath.row];
-    fatwa.Answer=[fatwa.Answer stringByDecodingHTMLEntities];
-    fatwa.Question=[fatwa.Question stringByDecodingHTMLEntities];
-    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main"
-                                                             bundle: nil];
-    FatwaDetailsViewController *tabController = [mainStoryboard instantiateViewControllerWithIdentifier: @"FatwaDetailsController"];
-    
-    tabController.fatwaModel=fatwa;
-    
-    [self.navigationController pushViewController:tabController animated:YES];
-    */
-    
-}
 
 
 @end

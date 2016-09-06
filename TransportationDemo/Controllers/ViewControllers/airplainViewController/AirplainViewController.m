@@ -20,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationController.navigationBarHidden=YES;
     // Do any additional setup after loading the view.
 }
 
@@ -192,6 +193,15 @@
     
 }
 
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+   
+    OfferDetailsVC *vc = [self.storyboard instantiateViewControllerWithIdentifier: @"offerviewcontroller"];
+   
+    [self presentViewController:vc  animated:YES  completion:nil];
+    
+   
+}
 
 -(void)setRandomImageForCellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
